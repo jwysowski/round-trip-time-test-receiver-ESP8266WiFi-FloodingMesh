@@ -7,9 +7,6 @@
 #define   MESH_PASSWORD   "123456789"
 #define   MESH_PORT       5555
 
-#define   STATION_SSID     "PraiseTheSun_EXT"
-#define   STATION_PASSWORD "jebacjaslo"
-
 #define HOSTNAME "Gateway"
 
 extern const char *alive;
