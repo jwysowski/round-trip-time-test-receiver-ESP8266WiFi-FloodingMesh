@@ -65,7 +65,8 @@ void loop() {
 bool received_callback(String &msg, FloodingMesh &mesh_instance) {
 	msg += String("\t");
     msg += String(millis() - round_trip_time);
-    mqtt.publish(report, msg.c_str());
+    // mqtt.publish(report, msg.c_str());
+	Serial.println(msg);
 	return true;
 }
 
