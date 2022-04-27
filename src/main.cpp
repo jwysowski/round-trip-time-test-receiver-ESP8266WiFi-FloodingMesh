@@ -58,7 +58,7 @@ void loop() {
     if (curr_millis - prev_millis > TEST_INTERVAL) {
         prev_millis = curr_millis;
         round_trip_time = curr_millis;
-        mesh.sendBroadcast("Round trip time test");
+        mesh.broadcast("Round trip time test");
     }
 }
 
